@@ -1,6 +1,6 @@
 'use strict';
 
-const express = reqiure('express');
+const express = require('express');
 const app = express();
 
 const notFoundHandler = require('./handlers/404.js');
