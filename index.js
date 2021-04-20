@@ -2,6 +2,6 @@
 
 require('dotenv').config();
 
-const server = require('./server-deployment-practice');
+const server = require('./server');
 
 server.start(process.env.PORT);
